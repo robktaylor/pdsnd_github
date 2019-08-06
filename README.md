@@ -2,7 +2,10 @@
 The bikeshare.py file was created on June 25/19 and completed on July 10/19
 The README.md file was created on Aug 6/19
 
-### Bikeshare
+### Project Title: Bikeshare
+
+### Software Version:
+Python version 3.7.3
 
 ### Description
 This project uses 3 different .csv files, each representing a city:
@@ -16,4 +19,4 @@ Data files: chicago.csv, new_york_city.csv, washington.csv
 Python file: bikeshare.py
 
 ### Credits
-Credit is due to the Udacity Programming for Data Science course. 
+Credit is due to the Udacity Programming for Data Science course.
