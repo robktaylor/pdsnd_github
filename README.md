@@ -18,5 +18,8 @@ parameters so that specific bike share user statistics may be presented.
 Data files: chicago.csv, new_york_city.csv, washington.csv
 Python file: bikeshare.py
 
+### Known bugs
+There are no known bugs to the bikeshare.py program 
+
 ### Credits
 Credit is due to the Udacity Programming for Data Science course.
