@@ -19,7 +19,10 @@ Data files: chicago.csv, new_york_city.csv, washington.csv
 Python file: bikeshare.py
 
 ### Known bugs
-There are no known bugs to the bikeshare.py program 
+There are no known bugs to the bikeshare.py program.
+
+### Updates/Revisions
+There are currently no updates or revisions to this project.
 
 ### Credits
 Credit is due to the Udacity Programming for Data Science course.
