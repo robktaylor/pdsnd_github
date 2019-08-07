@@ -244,7 +244,14 @@ def user_stats(df, city):
     print('-'*40)
 
 def raw(df):
-    """Asks the user if they want to see the raw data from their query"""
+    """
+
+    Asks the user if they want to see the raw data from their query. If the
+    user types 'yes', this code displays 5 lines of raw data. The code asks the
+    user again if they want to see 5 more lines of raw data, and shall
+    continue to do so until the user types an answer other than 'yes'.
+
+    """
     index = 0
     while True:
         see_data = input('\nDo you want to see the raw data from the statistics displayed above? Enter yes or no.\n')
@@ -256,6 +263,14 @@ def raw(df):
 
 
 def main():
+
+    """
+
+    The project code is run from this function. All other functions are called
+    in the sequence shown below and parameters are passed along, if required. 
+
+    """
+
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
