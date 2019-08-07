@@ -263,6 +263,14 @@ def raw(df):
 
 
 def main():
+
+    """
+
+    The project code is run from this function. All other functions are called
+    in the sequence shown below and parameters are passed along, if required. 
+
+    """
+
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
